@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1075271468771",
+    "firebase_url": "https://talk-me-bf4c4.firebaseio.com",
+    "project_id": "talk-me-bf4c4",
+    "storage_bucket": "talk-me-bf4c4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075271468771:android:b333de0c733a5e12",
+        "android_client_info": {
+          "package_name": "com.egyeso.talkme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075271468771-pkik6ifs9p76toa4g20n3fmmto4rho14.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.egyeso.talkme",
+            "certificate_hash": "d858073dd3f7275f5ffed54b5743f92945e9ebdc"
+          }
+        },
+        {
+          "client_id": "1075271468771-o3e85aapg45u00m8hqvmldmvi0n173o1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkuGjyIhSFGmBuDaXTrKRCWD-M9FS94zQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075271468771-o3e85aapg45u00m8hqvmldmvi0n173o1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

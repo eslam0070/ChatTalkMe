@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorChat"
+    tools:ignore="Autofill,ObsoleteLayoutParam,ContentDescription"
+    tools:context=".Activities.GroupChatActivity">
+
+
+    <ScrollView
+        android:id="@+id/my_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/myLinearLayout">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginBottom="560dp"
+                android:id="@+id/group_chat_text_display"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAllCaps="false"
+                android:padding="10dp"
+                android:textColor="@android:color/background_dark"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/myLinearLayout"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/input_group_message"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/myLinearLayout"
+            android:hint="@string/write_your_message_here"
+            android:inputType="textMultiLine"
+            android:padding="15dp" />
+
+        <ImageButton
+            android:id="@+id/send_message_button"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/myLinearLayout"
+            android:layout_alignEnd="@+id/myLinearLayout"
+            android:layout_marginEnd="30sp"
+            android:background="@color/colorWhite"
+            android:src="@drawable/ic_send_black_24dp" />
+
+    </LinearLayout>
+</RelativeLayout>
